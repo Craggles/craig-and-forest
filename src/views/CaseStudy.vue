@@ -1,9 +1,8 @@
 <template>
-    <div class="case-study">
-        <h1>Home</h1>
+    <div class="home-page">
+        <h1>Case Study</h1>
     </div>
 </template>
-
 
 <script>
     export default {
