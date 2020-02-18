@@ -105,15 +105,36 @@
         max-width: 90vw;
     }
 
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
     .cta {
-        background-color: white;
+        background-color: #ececec;
+        background-image: url('/highlight.svg');
+        background-repeat: no-repeat;
+        background-position: 0%;
+        animation-name: highlightcta;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
         color: black;
         text-decoration: none;
         font-family: Phosphate-Solid;
         font-size: 1rem;
         text-transform: uppercase;
+        padding: 20px 50px;
+        margin: 40px auto;
+        display: block;
+        width: max-content;
     }
 
+    @keyframes highlightcta {
+        0% {background-position: -50%;}
+        33% {background-position: 150%;}
+        100% {background-position: 150%;}
+    }
     @media only screen and (max-width: 1000px) {
         html {
             font-size: 20px;

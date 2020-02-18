@@ -27,7 +27,7 @@
         </div>
 
         <div class="textbox">
-            <p style="margin-bottom:60px;">We currently work at freddie’s flowers where we’ve had some really great results:</p>
+            <p style="margin-bottom:100px;">We currently work at freddie’s flowers where we’ve had some really great results:</p>
             <p style="text-transform:uppercase;line-height:1.5rem;margin-top:40px;">Conversion rate change:<br />
             <span style="font-weight:600;">+14%</span></p>
             <p style="text-transform:uppercase;line-height:1.5rem;margin-top:40px;">Number of site visitors:<br />
@@ -38,10 +38,10 @@
             <span style="font-weight:600;">+4000%</span></p>
 
             <router-link :to="{ name: 'home' }">
-                <div class="cta">
+                <span class="cta">
                     More on Freddie’s Flowers
-                </div>
-            </router-link>    
+                </span>
+            </router-link>
 
         </div>
 
@@ -176,4 +176,5 @@
     }
     
     /* FINISHED ANIMATING THE INTRO TYPE */
+
 </style>
