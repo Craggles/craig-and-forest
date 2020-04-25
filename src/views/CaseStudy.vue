@@ -1,6 +1,11 @@
 <template>
-    <div class="home-page">
-        <h1>Case Study</h1>
+    <div>
+        <get-in-touch-nav></get-in-touch-nav>
+
+        <div>
+            <h2>Freddie’s Flowers</h2>
+        </div>
+
     </div>
 </template>
 

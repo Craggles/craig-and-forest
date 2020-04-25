@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import CaseStudy from '../views/CaseStudy.vue';
+import FreddiesFlowers from '../views/FreddiesFlowers.vue';
 
 Vue.use(VueRouter)
 
@@ -12,9 +12,9 @@ const routes = [
         component: Home
     },
     {
-        path     : '/case-study',
-        name     : 'case-study',
-        component: CaseStudy
+        path     : '/freddies-flowers',
+        name     : 'freddies-flowers',
+        component: FreddiesFlowers
     }
 ]
 
