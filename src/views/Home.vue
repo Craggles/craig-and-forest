@@ -31,9 +31,9 @@
         </div>
 
         <div class="textbox">
-            <p>between us we have over seven years of&nbsp;digital branding experience</p>
+            <p>between us we have over eight years <span style="white-space: nowrap">of digital branding experience</span></p>
             <p>— & —</p>
-            <p>almost two years experience being a&nbsp;really cute dog.</p>
+            <p>just over two years experience being  <span style="white-space: nowrap">a really cute dog.</span></p>
         </div>
 
         <div style="height:100vh;">
@@ -42,7 +42,7 @@
         </div>
 
         <div class="textbox">
-            <p style="margin-bottom:100px;">We currently work in London at freddie’s flowers, a flower box subscription service, where we’ve had some really great results:</p>
+            <p style="margin-bottom:100px;">We currently work in London at freddie’s flowers, a flower box subscription service, <span style="white-space: nowrap">where we’ve</span> had some really great results:</p>
             <p style="text-transform:uppercase;line-height:1.5rem;margin-top:40px;">Conversion rate change:<br />
             <span style="font-weight:600;">+14%</span></p>
             <p style="text-transform:uppercase;line-height:1.5rem;margin-top:40px;">Number of site visitors:<br />
@@ -57,7 +57,7 @@
         </div>
 
         <div class="video_landscape">
-            <video class="video_zoom_on_mobile" autoplay muted loop>
+            <video class="video_zoom_on_mobile video_shunt_on_mobile" autoplay muted loop>
                 <source src="/landscape_03.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
@@ -73,14 +73,46 @@
             <h2 style="margin-top:200px;">Other brands we’ve worked with:</h2>
             <div class="flexcontainer">
                 <div class="projectthumbnail mockup-square mockup-yeo">
+                    <div class="projectoverlay">
+                        <h3>Yeo Valley</h3>
+                        <p>Organic Dairy Products</p>
+                    </div>
                 </div>
                 <div class="projectthumbnail mockup-landscape mockup-balans02">
+                    <div class="projectoverlay">
+                        <h3>Balans</h3>
+                        <p>Eccentric Restaurants</p>
+                    </div>
                 </div>
-                <div class="projectthumbnail mockup-landscape mockup-freaks">
+                <div class="projectthumbnail mockup-landscape mockup-earlyman">
+                    <div class="projectoverlay">
+                        <h3>Early Man</h3>
+                        <p>Aardman Feature Film</p>
+                    </div>
                 </div>
                 <div class="projectthumbnail mockup-square mockup-tedandmuffy">
+                    <div class="projectoverlay">
+                        <h3>Ted & Muffy</h3>
+                        <p>Bespoke Footwear</p>
+                    </div>
                 </div>
-                <div class="projectthumbnail">
+                <div class="projectthumbnail mockup-square mockup-freaks">
+                    <div class="projectoverlay">
+                        <h3>Freaks of Nature</h3>
+                        <p>Vegan Desserts</p>
+                    </div>
+                </div>
+                <div class="projectthumbnail mockup-square mockup-eatyourhat">
+                    <div class="projectoverlay">
+                        <h3>Eat Your Hat</h3>
+                        <p>Fair Trade Chocolate</p>
+                    </div>
+                </div>
+                <div class="projectthumbnail mockup-square mockup-merchantgourmet">
+                    <div class="projectoverlay">
+                        <h3>Merchant Gourmet</h3>
+                        <p>Ingredients from around the world</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -91,7 +123,7 @@
             <ul class="flexcontainer">
                 <li class="mountain">
                     <h3>Design websites!</h3>
-                    <p>We've designed many a website – from simple three pagers to massive ecommerce sites with member's areas and collector's schemes. Through personas & user journeys, scamps, wireframes, prototypes, user testing, all the way to fully responsive designs, we're fully versed in both UX & UI.</p>
+                    <p>We've designed many a website – <span style="white-space: nowrap">from simple</span> three pagers to massive ecommerce sites with member's areas and collector's schemes.</p>
                 </li>
                 <li class="tree">
                     <h3>Sleep under your tables</h3>
@@ -249,14 +281,6 @@
         background-image:url('/forest_4.jpg');
     }
 
-    .video_landscape {
-        overflow: hidden;
-        width: 100vw;
-        height: 50vw;
-    }
-    .video_zoom_on_mobile {
-        width: 100%;
-    }
     .mockup-yeo {
         background-image: url('/mockup_yeo.jpg');
     }
@@ -268,6 +292,15 @@
     }
     .mockup-freaks {
         background-image: url('/mockup_freaks.jpg');
+    }
+    .mockup-merchantgourmet {
+        background-image: url('/mockup_merchantgourmet.jpg');
+    }
+    .mockup-earlyman {
+        background-image: url('/mockup_earlyman.jpg');
+    }
+    .mockup-eatyourhat {
+        background-image: url('/mockup_eatyourhat.jpg');
     }
 
     /* ANIMATING THE SPLASH */

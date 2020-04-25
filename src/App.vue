@@ -48,7 +48,7 @@
 
     #nav a {
         font-weight: bold;
-        color: #2c3e50;
+        color: #161616;
     }
 
     #nav a.router-link-exact-active {
@@ -71,6 +71,7 @@
         line-height: 3rem;
         text-transform: uppercase;
         margin: 2rem auto;
+        max-width: 1400px;
     }
     h3 {
         font-family: Trueno-Black;
@@ -125,6 +126,27 @@
         height: 33vw;
         background-size: cover;
         background-position: center;
+        overflow: hidden;
+        display: flex;
+    }
+    .projectoverlay {
+        align-self: flex-end;
+        padding: 0 0.3rem 0.3rem 0;
+        text-align: right;
+        width: 100%;
+    }
+    .projectoverlay h3 {
+        font-size: 1rem;
+        line-height: 1rem;
+        text-shadow: 0px 0px 30px black;
+    }
+    .projectoverlay p {
+        font-size: 0.75rem;
+        text-transform: none;
+        letter-spacing: 0px;
+        line-height: 0.75rem;
+        margin: 0;
+        text-shadow: 0px 0px 30px black;
     }
     .projectthumbnail-portrait {
         height: 66vw;
@@ -141,9 +163,21 @@
     .mockup-landscape {
         width: 66vw;
     }
+    .mockup-portrait {
+        width: 33vw;
+        height: 66vw;
+    }
     .mockup-hero {
         width: 100vw;
         height: 50vw;
+    }
+    .video_landscape {
+        overflow: hidden;
+        width: 100vw;
+        height: 50vw;
+    }
+    .video_zoom_on_mobile {
+        height: 100%;
     }
     .flexcontainer {
         display: flex;
@@ -154,9 +188,6 @@
         width: 100%;
         padding: 0;
     }
-    .case-study .flexcontainer {
-        margin: 0 0 4rem;
-    }
     .flexcontainer-columns {
         display: flex;
         flex-direction: column;
@@ -166,6 +197,10 @@
         width: 100vw;
         height: 64vw;
         padding: 0;
+    }
+    .container-square {
+        width: 66vw;
+        height: 66vw;
     }
 
     a {
@@ -200,6 +235,7 @@
         background-image: url('/highlight_hover.svg');
         color: white;
         border: white solid 1px;
+        cursor: pointer;
     }
 
     .logosvg {
@@ -238,7 +274,7 @@
     }
 
     .case-study h2 {
-        margin-bottom: 0.5rem;
+        margin: 3rem 0 0.5rem;
     }
     .case-study h5 {
         margin: 1rem 0 2rem;
@@ -246,6 +282,13 @@
     .case-study p {
         line-height: 1.5rem;
         margin: 1rem 1rem 0rem;
+    }
+    .show-on-ipad {
+        display: none;
+    }
+
+    .bottom-spacer {
+        margin: 0 0 4rem 0;
     }
 
     @keyframes highlightcta {
@@ -260,12 +303,6 @@
         .logosvg {
             width: 700px;
             margin: calc(50vh - 116px) auto;
-        }
-        .video_zoom_on_mobile {
-            width: 150%;
-        }
-        .video_landscape {
-            height: 75vw;
         }
     }
     @media only screen and (max-width: 750px) {
@@ -284,11 +321,25 @@
             width: 300px;
             margin: calc(50vh - 50px) auto;
         }
-        .video_landscape {
+        .container-square {
+            width: 50vw;
             height: 100vw;
         }
+        .mockup-portrait {
+            width: 50vw;
+            height: 100vw;
+        }
+        .hide-on-ipad {
+            display: none;
+        }
+        .show-on-ipad {
+            display: flex;
+        }
+        .show-on-desktop {
+            display: none;
+        }
     }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 500px) {
         html {
             font-size: 15px;
         }
@@ -302,6 +353,35 @@
         }
         .stickynav h2, .stickynav p {
             margin: 0 auto 1rem;
+        }
+        .projectoverlay h3 {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+        }
+        .projectoverlay p {
+            font-size: 1rem;
+            line-height: 1rem;
+        }
+        .video_landscape {
+            height: 100vw;
+        }
+        .video_shunt_on_mobile {
+            position: relative;
+            left: -30vw;
+        }
+        .container-square {
+            width: 100vw;
+            height: 400vw;
+        }
+        .mockup-portrait {
+            width: 100vw;
+            height: 200vw;
+        }
+        .hide-on-ipad {
+            display: flex;
+        }
+        .show-on-ipad {
+            display: none;
         }
     }
     

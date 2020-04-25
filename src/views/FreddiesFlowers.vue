@@ -12,44 +12,66 @@
     <div>
         <get-in-touch-nav></get-in-touch-nav>
 
-        <div class="case-study">
+        <back-nav></back-nav>
+
+        <div class="case-study bottom-spacer">
             <h2>Freddie’s Flowers</h2>
             <p>Fresh flowers delivered weekly for £25 a pop.</p>
-            <h5>Visit the <a href="www.freddiesflowers.com" target="_blank">live site</a>!</h5>
+            <h5>Visit the <a href="www.freddiesflowers.com" target="_blank">live site</a></h5>
             <div class="flexcontainer">
                 <div class="projectthumbnail mockup-hero">
-                    <video class="video_zoom_on_mobile" autoplay muted loop>
+                    <video class="video_zoom_on_mobile video_shunt_on_mobile" autoplay muted loop>
                         <source src="/landscape_05.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
 
-                <div class="projectthumbnail mockup-square-roundup">
+                <div class="projectthumbnail mockup-square">
                     <video class="video_zoom_on_mobile" autoplay muted loop>
                         <source src="/ff_landingpages_video.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <div class="projectthumbnail mockup-landscape mockup-ff-whatsinthebox">
+                <div class="projectthumbnail mockup-landscape show-on-desktop">
+                    <video class="video_zoom_on_mobile" autoplay muted loop>
+                        <source src="/ff_howitworks.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
 
                 <div class="projectthumbnail mockup-square mockup-ff-styleguide-01">
                 </div>
                 <div class="projectthumbnail mockup-square mockup-ff-styleguide-02">
                 </div>
-                <div class="projectthumbnail mockup-square-roundup mockup-ff-styleguide-03">
+                <div class="projectthumbnail mockup-square mockup-ff-styleguide-03">
                 </div>
 
-                <div class="projectthumbnail mockup-square-roundup mockup-ff-recentdeliveries">
+                
+                <div class="flexcontainer container-square">
+                    <div class="projectthumbnail mockup-square mockup-ff-dashboard">
+                    </div>
+                    <div class="projectthumbnail mockup-square mockup-ff-currentbox">
+                    </div>
+                    <div class="projectthumbnail mockup-square mockup-ff-account hide-on-ipad">
+                    </div>
+                    <div class="projectthumbnail mockup-square mockup-ff-ratemyflowers hide-on-ipad">
+                    </div>
                 </div>
-                <div class="projectthumbnail mockup-landscape">
+                <div class="projectthumbnail mockup-portrait">
                     <video class="video_zoom_on_mobile" autoplay muted loop>
-                        <source src="/ff_howitworks.mp4" type="video/mp4">
+                        <source src="/ff_calendar.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
+                <div class="projectthumbnail mockup-square mockup-ff-account show-on-ipad">
+                </div>
+                <div class="projectthumbnail mockup-square mockup-ff-ratemyflowers show-on-ipad">
+                </div>
+
             </div>
         </div>
+
+        <footer-bar></footer-bar>
 
     </div>
 </template>
@@ -83,6 +105,21 @@
     }
     .mockup-ff-whatsinthebox {
         background-image: url('/mockup_ff_whatsinthebox.jpg');
+    }
+    .mockup-ff-recentdeliveriesdesktop {
+        background-image: url('/mockup_ff_recentdeliveries.jpg');
+    }
+    .mockup-ff-dashboard {
+        background-image: url('/mockup_ff_dashboard.jpg');
+    }
+    .mockup-ff-currentbox {
+        background-image: url('/mockup_ff_currentbox.jpg');
+    }
+    .mockup-ff-account {
+        background-image: url('/mockup_ff_account.jpg');
+    }
+    .mockup-ff-ratemyflowers {
+        background-image: url('/mockup_ff_ratemyflowers.jpg');
     }
 
 </style>

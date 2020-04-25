@@ -2,10 +2,10 @@
   
   <div class="footer-bar">
     <a href="#">
-      <h5 class="footer-instagram">Follow us on instagram:</h5>
+      <h5 class="footer-instagram">Follow us on Instagram:</h5>
     </a>
-    <a href="#">
-      <h5 class="footer-CV">Download Craig’s CV:</h5>
+    <a href="https://www.linkedin.com/in/craig-jenner-4928b617/" target="_blank">
+      <h5 class="footer-CV">Find us on LinkedIn:</h5>
     </a>
     <h5 class="top-margin">Photography by <a href="https://www.harrylivingstone.com" target="_blank" style="text-decoration: underline;">Harry Livingstone</a>.</h5>
       <h5>He’s amazing and an absolute sweetheart so pay him to take photos of you.</h5>
@@ -55,7 +55,7 @@
   }
   
   .footer-CV::after {
-    content: url("/icon_download.svg");
+    content: url("/icon_linkedin.svg");
     display: block;
     height: 40px;
     width: 40px;

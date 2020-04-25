@@ -7,12 +7,12 @@
     <div id="nav-open" class="hidden">
       <div class="scrollable-nav">
         <div @click="closenav()" id="cta_close" class="cta-close">
-          <img src="/arrows_down.svg" />
+          <img src="/arrows_down.svg" class="shrink-on-landscape" />
         </div>
         <h2>Work with us</h2>
         <p>Well hello there!</p>
         <p>Our standard day rate is £300, but we're happy to work for reduced rates or even voluntarily if your project has an ethical focus.</p>
-        <p>Just ping an email to <a href="mailto:craigandforest@gmail.com">craigandforest@gmail.com</a> and we can discuss what you need.</p>
+        <p>Just ping an email to <a href="mailto:craig@craigandforest.com">craig@craigandforest.com</a> and we can discuss what you need.</p>
       </div>
     </div>
 </div>
@@ -65,7 +65,7 @@
         height: 100vh;
         bottom: calc(-100vh + 110px);
     }
-.stickynav h2, .stickynav p{
+.stickynav h2, .stickynav p {
   color: black;
   max-width: 70vw;
   margin: 0 auto 2rem;
@@ -123,6 +123,28 @@
 }
 .hidden {
   display: none;
+}
+
+
+@media screen and (orientation:landscape) and (max-width: 750px) {
+  
+  .stickynav h2, .stickynav p {
+    max-width: 90vw;
+    margin: 0 auto 0.75rem;
+  }
+  .stickynav h2 {
+    font-size: 2rem;
+  }
+  .stickynav p {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+  }
+  .cta-close {
+    height: 2rem;
+  }
+  .shrink-on-landscape {
+    height: 2rem;
+  }
 }
 
 </style>
