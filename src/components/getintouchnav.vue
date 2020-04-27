@@ -68,7 +68,7 @@
 .stickynav h2, .stickynav p {
   color: black;
   max-width: 70vw;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1rem;
 }
 .stickynav p {
   line-height: 2rem;

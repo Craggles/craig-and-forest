@@ -49,10 +49,10 @@
             <span style="font-weight:600;">+19%</span></p>
             <p style="text-transform:uppercase;line-height:1.5rem;margin-top:40px;">Order rate:<br />
             <span style="font-weight:600;">+8%</span></p>
-            <p style="text-transform:uppercase;line-height:1.5rem;margin-top:40px;">Amount of ‘recommend a friend’ invites sent:<br />
+            <p style="text-transform:uppercase;line-height:1.5rem;margin-top:40px;">Amount of ‘recommend a friend’ invites sent:<br />
             <span style="font-weight:600;">+94%</span></p>
             <p style="text-transform:uppercase;line-height:1.5rem;margin-top:40px;">Office adorableness levels:<br />
-            <span style="font-weight:600;">+4000%</span></p>
+            <span style="font-weight:600;">+4000%</span></p>
 
         </div>
 
@@ -143,7 +143,7 @@
                 </li>
                 <li class="tree">
                     <h3>Wookie impressions</h3>
-                    <p>Not enough Star Wars characters in your office? Well Forest's Chewbacca impressions will make you feel like you're sat playing holochess on the Millenium Falcon.</p>
+                    <p>Not enough Star Wars characters in your office? Forest's Chewbacca impressions will make you feel like you're playing holochess on the Millennium Falcon.</p>
                 </li>
             </ul>
 

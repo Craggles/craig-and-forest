@@ -1,7 +1,7 @@
 <template>
   
   <div class="footer-bar">
-    <a href="#">
+    <a href="https://www.instagram.com/craigandforest/" target="_blank">
       <h5 class="footer-instagram">Follow us on Instagram:</h5>
     </a>
     <a href="https://www.linkedin.com/in/craig-jenner-4928b617/" target="_blank">

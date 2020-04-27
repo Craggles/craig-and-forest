@@ -6,7 +6,7 @@
 
         <div class="case-study bottom-spacer">
             <h2>Freddie’s Flowers</h2>
-            <p>Fresh flowers delivered weekly for £25 a pop.</p>
+            <p>Fresh flowers delivered weekly for £24 a pop.</p>
             <h5>Visit the <a href="https://www.freddiesflowers.com" target="_blank">live site</a></h5>
             <div class="flexcontainer">
                 <div class="projectthumbnail mockup-hero">
