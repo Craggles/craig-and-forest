@@ -7,8 +7,8 @@
     <a href="https://www.linkedin.com/in/craig-jenner-4928b617/" target="_blank">
       <h5 class="footer-CV">Find us on LinkedIn:</h5>
     </a>
-    <h5 class="top-margin">Photography by <a href="https://www.harrylivingstone.com" target="_blank" style="text-decoration: underline;">Harry Livingstone</a>.</h5>
-      <h5>He’s amazing and an absolute sweetheart so pay him to take photos of you.</h5>
+    <h5 class="top-margin">Photography by <a href="https://www.harrylivingstone.com" target="_blank" style="text-decoration: underline;">Harry Livingstone</a></h5>
+      <h5>He’s amazing and an absolute sweetheart so pay him to take photos of you</h5>
   </div>
 
 </template>

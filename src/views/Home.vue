@@ -222,6 +222,7 @@
         left: 0%;
         background-size: cover;
         background-position: left top;
+        background-color: #161616;
         width: 90vw;
         height: 100vh;
         overflow: hidden;
@@ -232,6 +233,7 @@
         right: 0%;
         background-size: cover;
         background-position: right bottom;
+        background-color: #161616;
         width: 90vw;
         height: 100vh;
         overflow: hidden;
@@ -267,12 +269,6 @@
     }
     .f_2 {
         background-image:url('/forest_2.jpg');
-    }
-    .c_3 {
-        background-image:url('/craig_3.jpg');
-    }
-    .f_3 {
-        background-image:url('/forest_3.jpg');
     }
     .c_4 {
         background-image:url('/craig_4.jpg');
