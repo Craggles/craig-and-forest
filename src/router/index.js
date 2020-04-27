@@ -1,27 +1,33 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import Home from '../views/Home.vue';
 import FreddiesFlowers from '../views/FreddiesFlowers.vue';
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
     {
         path     : '/',
         name     : 'home',
-        component: Home
+        component: Home,
+        meta     : {
+            title: 'Home',
+        },
     },
     {
         path     : '/freddies-flowers',
         name     : 'freddies-flowers',
-        component: FreddiesFlowers
-    }
-]
+        component: FreddiesFlowers,
+        meta     : {
+            title: 'FF',
+        },
+    },
+];
 
 const router = new VueRouter({
     mode: 'history',
     base: process.env.BASE_URL,
-    routes
-})
+    routes,
+});
 
-export default router
+export default router;
