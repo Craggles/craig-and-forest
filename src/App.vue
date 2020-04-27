@@ -1,16 +1,25 @@
 <template>
     <div id="app">
-        <!-- Main Template
-        <router-link :to="{ name: 'home' }">
-            Home
-        </router-link>
-        <router-link :to="{ name: 'case-study' }">
-            Case Study
-        </router-link> -->
         <router-view></router-view>
     </div>
 </template>
 
+<script>
+    export default {
+        watch: {
+            '$route': {
+                immediate: true,
+                handler  : function (to) {
+                    console.log(to.meta.title);
+                    document.title = to.meta.title || 'Craig & Forest';
+
+                    document.body.scrollTop            = 0; // For Safari
+                    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                },
+            },
+        },
+    };
+</script>
 <style>
     html {
         font-size: 30px;
@@ -33,14 +42,17 @@
         font-family: Trueno-Black;
         src: url('/TruenoBlack-mBYV.otf');
     }
+
     @font-face {
         font-family: Trueno-Black-Italic;
         src: url('/TruenoBlackItalic-dXnl.otf');
     }
+
     @font-face {
         font-family: Trueno-Black-Outline;
         src: url('/TruenoBlackOutline-P43P.otf');
     }
+
     @font-face {
         font-family: Trueno-Black-Outline-Italic;
         src: url('/TruenoBlackOutlineItalic-LLEy.otf');
@@ -64,6 +76,7 @@
         line-height: 4rem;
         letter-spacing: 5px;
     }
+
     h2 {
         font-family: Trueno-Black;
         color: white;
@@ -73,6 +86,7 @@
         margin: 2rem auto;
         max-width: 1400px;
     }
+
     h3 {
         font-family: Trueno-Black;
         color: white;
@@ -81,6 +95,7 @@
         text-transform: uppercase;
         margin: 0 0 0 0;
     }
+
     h5 {
         font-family: 'Prompt', sans-serif;
         font-size: 0.75rem;
@@ -90,6 +105,7 @@
         font-weight: 200;
         color: white;
     }
+
     p {
         font-family: 'Prompt', sans-serif;
         font-size: 1rem;
@@ -99,22 +115,27 @@
         font-weight: 200;
         color: white;
     }
+
     .textbox {
         padding: 180px 20px;
         max-width: 900px;
         margin: auto;
     }
+
     .widebox {
         padding: 180px 20px;
         width: 90%;
         margin: auto;
     }
+
     .wonkright {
         transform: rotate(3deg);
     }
+
     .wonkleft {
         transform: rotate(-3deg);
     }
+
     .introtext {
         width: 50vw; /* Needs to be bigger on mobile */
         position: absolute;
@@ -122,6 +143,7 @@
         text-shadow: 0px 0px 30px black;
         white-space: nowrap;
     }
+
     .projectthumbnail {
         height: 33vw;
         background-size: cover;
@@ -129,17 +151,20 @@
         overflow: hidden;
         display: flex;
     }
+
     .projectoverlay {
         align-self: flex-end;
         padding: 0 0.3rem 0.3rem 0;
         text-align: right;
         width: 100%;
     }
+
     .projectoverlay h3 {
         font-size: 1rem;
         line-height: 1rem;
         text-shadow: 0px 0px 30px black;
     }
+
     .projectoverlay p {
         font-size: 0.75rem;
         text-transform: none;
@@ -148,37 +173,46 @@
         margin: 0;
         text-shadow: 0px 0px 30px black;
     }
+
     .projectthumbnail-portrait {
         height: 66vw;
         width: 36vw;
         background-size: cover;
         background-position: center;
     }
+
     .mockup-square {
         width: 33vw;
     }
+
     .mockup-square-roundup {
         width: 34vw;
     }
+
     .mockup-landscape {
         width: 66vw;
     }
+
     .mockup-portrait {
         width: 33vw;
         height: 66vw;
     }
+
     .mockup-hero {
         width: 100vw;
         height: 50vw;
     }
+
     .video_landscape {
         overflow: hidden;
         width: 100vw;
         height: 50vw;
     }
+
     .video_zoom_on_mobile {
         height: 100%;
     }
+
     .flexcontainer {
         display: flex;
         flex-direction: row;
@@ -188,6 +222,7 @@
         width: 100%;
         padding: 0;
     }
+
     .flexcontainer-columns {
         display: flex;
         flex-direction: column;
@@ -198,6 +233,7 @@
         height: 64vw;
         padding: 0;
     }
+
     .container-square {
         width: 66vw;
         height: 66vw;
@@ -254,10 +290,12 @@
         letter-spacing: 0px;
         text-transform: none;
     }
+
     .tree h3 {
         font-family: Trueno-Black-Outline;
         letter-spacing: 2px;
     }
+
     .mountain::before {
         content: url("/mountain.svg");
         display: block;
@@ -265,6 +303,7 @@
         width: 33px;
         margin: 1rem auto;
     }
+
     .tree::before {
         content: url("/tree.svg");
         display: block;
@@ -276,13 +315,16 @@
     .case-study h2 {
         margin: 3rem 0 0.5rem;
     }
+
     .case-study h5 {
         margin: 1rem 0 2rem;
     }
+
     .case-study p {
         line-height: 1.5rem;
         margin: 1rem 1rem 0rem;
     }
+
     .show-on-ipad {
         display: none;
     }
@@ -292,97 +334,126 @@
     }
 
     @keyframes highlightcta {
-        0% {background-position: -50%;}
-        33% {background-position: 150%;}
-        100% {background-position: 150%;}
+        0% {
+            background-position: -50%;
+        }
+        33% {
+            background-position: 150%;
+        }
+        100% {
+            background-position: 150%;
+        }
     }
+
     @media only screen and (max-width: 1000px) {
         html {
             font-size: 20px;
         }
+
         .logosvg {
             width: 700px;
             margin: calc(50vh - 116px) auto;
         }
     }
+
     @media only screen and (max-width: 750px) {
         html {
             font-size: 20px;
         }
+
         .projectthumbnail {
             width: 50vw;
             height: 50vw;
         }
+
         .mockup-hero {
             width: 100vw;
             height: 50vw;
-        }   
+        }
+
         .logosvg {
             width: 300px;
             margin: calc(50vh - 50px) auto;
         }
+
         .container-square {
             width: 50vw;
             height: 100vw;
         }
+
         .mockup-portrait {
             width: 50vw;
             height: 100vw;
         }
+
         .hide-on-ipad {
             display: none;
         }
+
         .show-on-ipad {
             display: flex;
         }
+
         .show-on-desktop {
             display: none;
         }
     }
+
     @media only screen and (max-width: 500px) {
         html {
             font-size: 15px;
         }
+
         .projectthumbnail {
             width: 100vw;
             height: 100vw;
         }
+
         .logosvg {
             width: 300px;
             margin: calc(50vh - 50px) auto;
         }
+
         .stickynav h2, .stickynav p {
             margin: 0 auto 1rem;
         }
+
         .projectoverlay h3 {
             font-size: 1.5rem;
             line-height: 1.5rem;
         }
+
         .projectoverlay p {
             font-size: 1rem;
             line-height: 1rem;
         }
+
         .video_landscape {
             height: 100vw;
         }
+
         .video_shunt_on_mobile {
             position: relative;
             left: -30vw;
         }
+
         .container-square {
             width: 100vw;
             height: 400vw;
         }
+
         .mockup-portrait {
             width: 100vw;
             height: 200vw;
         }
+
         .hide-on-ipad {
             display: flex;
         }
+
         .show-on-ipad {
             display: none;
         }
     }
-    
+
 </style>
