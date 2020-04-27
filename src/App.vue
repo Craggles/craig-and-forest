@@ -274,7 +274,7 @@
     }
 
     .case-study h2 {
-        margin: 3rem 0 0.5rem;
+        margin: 3rem auto 0.5rem;
     }
     .case-study h5 {
         margin: 1rem 0 2rem;
