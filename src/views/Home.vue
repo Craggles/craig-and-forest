@@ -31,9 +31,9 @@
         </div>
 
         <div class="textbox">
-            <p>between us we have over eight years <span style="white-space: nowrap">of digital branding experience</span></p>
+            <p>between us we have over eight years of digital branding experience</p>
             <p>— & —</p>
-            <p>just over two years experience being  <span style="white-space: nowrap">a really cute dog.</span></p>
+            <p>just over two years experience being a really cute dog.</p>
         </div>
 
         <div style="height:100vh;">
@@ -42,7 +42,7 @@
         </div>
 
         <div class="textbox">
-            <p style="margin-bottom:100px;">We currently work in London at freddie’s flowers, a flower box subscription service, <span style="white-space: nowrap">where we’ve</span> had some really great results:</p>
+            <p style="margin-bottom:100px;">We're currently freelancing around London and have recently been working with freddie’s flowers, where we’ve had some really great results:</p>
             <p style="text-transform:uppercase;line-height:1.5rem;margin-top:40px;">Conversion rate change:<br />
             <span style="font-weight:600;">+14%</span></p>
             <p style="text-transform:uppercase;line-height:1.5rem;margin-top:40px;">Number of site visitors:<br />
