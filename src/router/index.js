@@ -11,7 +11,7 @@ const routes = [
         name     : 'home',
         component: Home,
         meta     : {
-            title: 'Home',
+            title: 'Craig & Forest – Digital Designs',
         },
     },
     {
@@ -19,7 +19,7 @@ const routes = [
         name     : 'freddies-flowers',
         component: FreddiesFlowers,
         meta     : {
-            title: 'FF',
+            title: "Craig & Forest – Freddie's Flowers",
         },
     },
 ];
