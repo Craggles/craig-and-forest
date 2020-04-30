@@ -10,20 +10,20 @@
             <h5>Visit the <a href="https://www.freddiesflowers.com" target="_blank">live site</a></h5>
             <div class="flexcontainer">
                 <div class="projectthumbnail mockup-hero">
-                    <video class="video_zoom_on_mobile video_shunt_on_mobile" autoplay muted loop webkit-playsinline>
+                    <video class="video_zoom_on_mobile video_shunt_on_mobile" autoplay muted loop playsinline>
                         <source src="/landscape_05.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
 
                 <div class="projectthumbnail mockup-square">
-                    <video class="video_zoom_on_mobile" autoplay muted loop webkit-playsinline>
+                    <video class="video_zoom_on_mobile" autoplay muted loop playsinline>
                         <source src="/ff_landingpages_video.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div class="projectthumbnail mockup-landscape show-on-desktop">
-                    <video class="video_zoom_on_mobile" autoplay muted loop webkit-playsinline>
+                    <video class="video_zoom_on_mobile" autoplay muted loop playsinline>
                         <source src="/ff_howitworks.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="projectthumbnail mockup-portrait">
-                    <video class="video_zoom_on_mobile" autoplay muted loop webkit-playsinline>
+                    <video class="video_zoom_on_mobile" autoplay muted loop playsinline>
                         <source src="/ff_calendar.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
