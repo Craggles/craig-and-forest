@@ -57,7 +57,7 @@
         </div>
 
         <div class="video_landscape">
-            <video class="video_zoom_on_mobile video_shunt_on_mobile" autoplay muted loop>
+            <video class="video_zoom_on_mobile video_shunt_on_mobile" autoplay muted loop webkit-playsinline>
                 <source src="/landscape_03.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
