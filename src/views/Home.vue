@@ -19,7 +19,7 @@
             <div class="introtext" style="bottom:57%;">
                 <h3 class="animated">Digital Branding</h3>
                 <h1 class="animated delay_1">Craig&</h1>
-                
+
             </div>
         </div>
         <div class="clip-right f_1 fadein">
@@ -118,7 +118,7 @@
         </div>
 
         <div class="widebox">
-            
+
             <h2>Things we do</h2>
             <ul class="flexcontainer">
                 <li class="mountain">
@@ -154,7 +154,7 @@
             <div class="clip-right f_4"></div>
         </div>
 
-        
+
         <div class="textbox">
             <h2>Personal Ethos</h2>
             <p>In my opinion, treating both employees, users and the planet with respect is paramount.</p>
@@ -177,7 +177,7 @@
     var angle;
     var introTexts;
     var i;
-        
+
 
     function setTypeAngle() {
         tobetanned = ((window.innerHeight * 6) / 10) / ((window.innerWidth * 6) / 10);
@@ -198,20 +198,7 @@
 
 
     export default {
-        name: 'Home',
-        data: function() {
-            return {
-                eventListener: null,
-            }
-        },
-        mounted: function() {
-        },
-        methods: {
-        },
-        destroyed: function() {
-            window.removeEventListener(this.eventListener);
-        }
-        // props: 
+        name: 'Home'
     }
 </script>
 
@@ -372,7 +359,7 @@
     .delay_3 {
         animation-delay: -5.5s;
     }
-    
+
     /* FINISHED ANIMATING THE INTRO TYPE */
 
 </style>

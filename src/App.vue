@@ -10,7 +10,6 @@
             '$route': {
                 immediate: true,
                 handler  : function (to) {
-                    console.log(to.meta.title);
                     document.title = to.meta.title || 'Craig & Forest';
 
                     document.body.scrollTop            = 0; // For Safari

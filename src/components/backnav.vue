@@ -1,11 +1,11 @@
 <template>
-  
+
   <div>
-    <a href="../">
+    <router-link :to="{ name: 'home' }">
       <div class="stickybacknav">
         <div class="icon-back"></div><div class="back">Back</div>
       </div>
-    </a>
+    </router-link>
   </div>
 
 </template>
