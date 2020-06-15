@@ -5,7 +5,7 @@ module.exports = {
       registry: undefined,
       renderRoutes: [
         '/',
-        '/freddies-flowers',
+        '/freddies-flowers.html',
       ],
       useRenderEvent: true,
       headless: true,
