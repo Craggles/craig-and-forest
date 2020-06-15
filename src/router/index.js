@@ -15,7 +15,7 @@ const routes = [
         },
     },
     {
-        path     : '/freddies-flowers',
+        path     : '/freddies-flowers.html',
         name     : 'freddies-flowers',
         component: FreddiesFlowers,
         meta     : {
