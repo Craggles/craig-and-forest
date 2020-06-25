@@ -12,7 +12,7 @@
         <h2>Work with us</h2>
         <p>Well hello there!</p>
         <p>Our standard day rate is £300, but we're happy to work for reduced rates or even voluntarily if your project has an ethical focus.</p>
-        <p>Just ping an email to <a href="mailto:craig@craigandforest.com">craig@craigandforest.com</a> and we can discuss what you need.</p>
+        <p>Just ping an email to <a href="mailto:craig@craigandforest.co.uk">craig@craigandforest.co.uk</a> and we can discuss what you need.</p>
       </div>
     </div>
 </div>
