@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
-import FreddiesFlowers from '../views/FreddiesFlowers.vue';
+import TheProcess from '../views/TheProcess.vue';
 
 Vue.use(VueRouter);
 
@@ -15,11 +15,11 @@ const routes = [
         },
     },
     {
-        path     : '/freddies-flowers.html',
-        name     : 'freddies-flowers',
-        component: FreddiesFlowers,
+        path     : '/the-process.html',
+        name     : 'the-process',
+        component: TheProcess,
         meta     : {
-            title: "Craig & Forest – Freddie's Flowers",
+            title: "Craig & Forest – The Process",
         },
     },
 ];
