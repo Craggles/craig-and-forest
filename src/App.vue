@@ -173,6 +173,15 @@
         text-shadow: 0px 0px 30px black;
     }
 
+    .projectoverlay h5 {
+        font-size: 0.5rem;
+        text-transform: none;
+        letter-spacing: 0px;
+        line-height: 0.75rem;
+        margin: 0;
+        text-shadow: 0px 0px 30px black;
+    }
+
     .projectthumbnail-portrait {
         height: 66vw;
         width: 36vw;

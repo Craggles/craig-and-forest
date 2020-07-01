@@ -63,11 +63,15 @@
               </video>
         </div>
 
-        <router-link :to="{ name: 'freddies-flowers' }">
-            <span class="cta">
-                More on Freddie’s Flowers
-            </span>
-        </router-link>
+
+        <div class="textbox">
+            <h2>How did we do it?</h2>
+            <router-link :to="{ name: 'the-process' }">
+                <span class="cta">
+                    Our process
+                </span>
+            </router-link>
+        </div>
 
         <div>
             <h2 style="margin-top:200px;">Other brands we’ve worked with:</h2>
@@ -76,42 +80,49 @@
                     <div class="projectoverlay">
                         <h3>Yeo Valley</h3>
                         <p>Organic Dairy Products</p>
+                        <h5><i>— via Big Fish Design</i></h5>
                     </div>
                 </div>
                 <div class="projectthumbnail mockup-landscape mockup-balans02">
                     <div class="projectoverlay">
                         <h3>Balans</h3>
                         <p>Eccentric Restaurants</p>
+                        <h5><i>— via Big Fish Design</i></h5>
                     </div>
                 </div>
                 <div class="projectthumbnail mockup-landscape mockup-earlyman">
                     <div class="projectoverlay">
                         <h3>Early Man</h3>
                         <p>Aardman Feature Film</p>
+                        <h5><i>— via Big Fish Design</i></h5>
                     </div>
                 </div>
                 <div class="projectthumbnail mockup-square mockup-tedandmuffy">
                     <div class="projectoverlay">
                         <h3>Ted & Muffy</h3>
                         <p>Bespoke Footwear</p>
+                        <h5><i>— via Big Fish Design</i></h5>
                     </div>
                 </div>
                 <div class="projectthumbnail mockup-square mockup-freaks">
                     <div class="projectoverlay">
                         <h3>Freaks of Nature</h3>
                         <p>Vegan Desserts</p>
+                        <h5><i>— via Big Fish Design</i></h5>
                     </div>
                 </div>
                 <div class="projectthumbnail mockup-square mockup-eatyourhat">
                     <div class="projectoverlay">
                         <h3>Eat Your Hat</h3>
                         <p>Fair Trade Chocolate</p>
+                        <h5><i>— via Big Fish Design</i></h5>
                     </div>
                 </div>
                 <div class="projectthumbnail mockup-square mockup-merchantgourmet">
                     <div class="projectoverlay">
                         <h3>Merchant Gourmet</h3>
                         <p>Ingredients from around the world</p>
+                        <h5><i>— via Big Fish Design</i></h5>
                     </div>
                 </div>
             </div>
