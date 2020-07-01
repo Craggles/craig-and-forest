@@ -16,7 +16,7 @@
 
             <div class="textbox">
                 <h3>Research</h3>
-                <p>Freddie’s had been running for about four years beforeI got there so there was a fair amount of data to get my teeth into.</p>
+                <p>Freddie’s had been running for about four years before I got there so there was a fair amount of data to get my teeth into.</p>
                 <p>I also interviewed members of the customer service team to understand problems users were experiencing and set up an additional abandon basket email with a quick survey to get more information on why people were reluctant to sign up.</p>
             </div>
 
@@ -57,7 +57,7 @@
 
             <div class="textbox">
                 <h3>Style Guides</h3>
-                <p>With the UI of a few key pages signed off I created a Style Guide for the developers, the existing teamand any future designers, and then rolled the designout to a few of the more complicated pages.</p>
+                <p>With the UI of a few key pages signed off I created a Style Guide for the developers, the existing team and any future designers, and then rolled the design out to a few of the more complicated pages.</p>
             </div>
 
             <div class="mockup-hero mockup-white-ff-styleguide">
