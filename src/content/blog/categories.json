@@ -1,0 +1,10 @@
+{
+    "bieganie": {
+        "name": "Bieganie",
+        "description": ""
+    },
+    "podroze": {
+        "name": "Podroze",
+        "description": "Wpisy o podrozowaniu"
+    }
+}
